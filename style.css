@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3iazbXWjgeg.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    background: #cc25d9;
+    color: white;
+}
+
+#portrait {
+    max-width: 100%;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 24px;
+}
+p a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: solid 1px ;
+}
+
+.social {
+    cursor: default;
+    list-style: none;
+    margin-top: 20px;
+    user-select: none;
+}
+.social li {
+    display: inline-block;
+    margin: 2px;
+}
+.social a {
+    cursor: default;
+    border: none;
+}
+.social svg {
+    fill: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid 2px white;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.social svg:hover, .dark .social svg {
+    transform: rotate(360deg);
+    transition: .5s;
+}
+.social li#mail svg:hover, .dark li#mail svg {
+    border-color: #ff6f32;
+    fill: #ff6f32;
+}
+.social li#github svg:hover, .dark li#github svg {
+    border-color: #4fec51;
+    fill: #4fec51;
+}
+.social li#linkedin svg:hover, .dark li#linkedin svg {
+    border-color: #0077B5;
+    fill: #0077B5;
+}
+.social li#twitter svg:hover, .dark li#twitter svg {
+    border-color: #55acee;
+    fill: #55acee;
+}
+.social li#instagram svg:hover, .dark li#instagram svg {
+    border-color: #9b6954;
+    fill: #9b6954;
+}
+.social li#flickr svg:hover, .dark li#flickr svg {
+    border-color: #FF0084;
+    fill: #FF0084;
+}
+.social li#night svg:hover, .dark li#night svg {
+    border-color: #EEC900;
+    fill: #EEC900;
+}
+
+@media (min-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .column {
+        padding: 20px;
+        max-width: 60%;
+    }
+    #portrait {
+        max-width: 400px;
+    }
+}
