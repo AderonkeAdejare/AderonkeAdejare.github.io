@@ -18,7 +18,8 @@ html, body {
 body {
     font-family: 'Nunito', sans-serif;
     padding: 20px;
-    background: #cedaea;
+    background: #cc25d9;
+    color: white;
 }
 
 #portrait {
@@ -51,11 +52,11 @@ p a {
     border: none;
 }
 .social svg {
-    fill: #333;
+    fill: white;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: solid 1px #333;
+    border: solid 2px white;
     padding: 4px;
     cursor: pointer;
     transition: .3s;
@@ -101,7 +102,7 @@ p a {
         align-items: center;
     }
     .column {
-        padding: 10px;
+        padding: 20px;
         max-width: 60%;
     }
     #portrait {
