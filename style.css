@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Garamond';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -16,9 +16,9 @@ html, body {
     min-height: 100vh;
 }
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Garamond', serif;
     padding: 20px;
-    background: #cc25d9;
+    background: rgba(10,191,255, 0.8);
     color: white;
 }
 
@@ -26,15 +26,63 @@ body {
     max-width: 100%;
 }
 h1 {
-    font-size: 50px;
+    font-size: 72px;
+    font-family: 'Garamond', serif;
 }
+
+h1 a {
+    color: white;
+}
+h1 a:link { 
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgba(10,191,255, 0.5); 
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Optima', serif;
+    font-style: italic;
+}
+
+h2 a:link {
+    text-decoration: none; 
+}
+
+h2 a:hover {
+    color: rgba(10,191,255, 0.5); 
+}
+
 p {
     font-size: 24px;
+    font-family: 'Garamond', serif;
+
 }
 p a {
     color: inherit;
     text-decoration: none;
     border-bottom: solid 1px ;
+}
+
+div.creative {
+
+}
+
+div.scientist {
+
+}
+
+div.innovator {
+
+}
+
+div.contact {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px; 
 }
 
 .social {
@@ -51,6 +99,7 @@ p a {
     cursor: default;
     border: none;
 }
+/* need to redo images & js for this, probably */
 .social svg {
     fill: white;
     height: 40px;
