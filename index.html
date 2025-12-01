@@ -14,8 +14,8 @@
       
       <div class="nav-links">
         <a href="#home" data-page="home" onclick="navigateTo('home')">Home</a>
-        <a href="#porfolio" data-page="portfolio" onclick="navigateTo('portfolio')" class="active">Portfolio</a>
-        <a href="#scientific" data-page="scientific" onclick="navigateTo('scientific')">Scientific Work</a>
+        <a href="#portfolio" data-page="portfolio" onclick="navigateTo('portfolio')" class="active">Portfolio</a>
+        <!-- <a href="#scientific" data-page="scientific" onclick="navigateTo('scientific')">Scientific Work</a> -->
         <a href="#aoads" data-page="aoads" onclick="navigateTo('aoads')">AOA Digital Storytelling</a>
         <a href="#contact" data-page="contact" onclick="navigateTo('contact')">Contact</a>
       </div>
@@ -25,8 +25,8 @@
 
     <div class="mobile-menu" id="mobileMenu">
       <a href="#home" data-page="home" onclick="navigateTo('home')">Home</a>
-      <a href="#porfolio" data-page="portfolio" onclick="navigateTo('portfolio')">Portfolio</a>
-      <a href="#scientific" data-page="scientific" onclick="navigateTo('scientific')">Scientific Work</a>
+      <a href="#portfolio" data-page="portfolio" onclick="navigateTo('portfolio')">Portfolio</a>
+      <!-- <a href="#scientific" data-page="scientific" onclick="navigateTo('scientific')">Scientific Work</a> -->
       <a href="#aoads" data-page="aoads" onclick="navigateTo('aoads')">AOA Digital Storytelling</a>
       <a href="#contact" data-page="contact" onclick="navigateTo('contact')">Contact</a>
     </div>
@@ -53,11 +53,11 @@
           
           <div class="about-text">
             <h2>I'm Adérónkẹ́ Adéjàre</h2>
-            <p>I'm a creative technologist, theater artist, and digital media creator passionate about exploring the intersection of art and science.</p>
-            <p> I recently graduated from Yale University with a B.A. in Computing and the Arts with a concentration in Theater, Dance, and Performance Studies. 
-              I blend technology and performance with my Nigierian-American culture in my work. </p>
+            <p>I'm a computer scientist, theater artist, and digital media creator passionate about exploring the intersection of technology and media to enhance the storytelling of Black and disabled narratives.</p>
+            <p> I recently graduated from Yale University with a B.A. in Computing and the Arts with a concentration in Theater, Dance, and Performance Studies where my thesis project <i> Moon Man Walk </i> was the first Augmented Reality theater production at Yale. </p>
+            <p> I am currently a Data Engineer Associate on the Claims Document Ingestion Team and a part of Technology Associate Program (TAP) at Chubb.  TAP is now a rotational program and I started on the Personal Risk Services Digital Platforms and Mobile Team where I contributed to my team </p>
           </div>
-          <button class="btn btn-theme-outline"> <a href = "../assets/Aderonke_Adejare_Resume.pdf"> Download Resumé </a></button>
+          <!-- <button class="btn btn-theme-outline"> <a href = "../assets/Aderonke_Adejare_Resume.pdf"> Download Resumé </a></button> -->
         </div>
 
         
@@ -65,6 +65,7 @@
           <h3>Explore My Work</h3>
           
           <div class="cards-grid">
+            <!-- a card for theater resume, technical resume, combined resume -->
             <button class="work-card" onclick="navigateTo('portfolio')">
               <div class="card-header">
                 <h4>Portfolio</h4>
@@ -76,7 +77,7 @@
               <span class="card-cta">View Portfolio →</span>
             </button>
 
-            <button class="work-card" onclick="navigateTo('scientific')">
+            <!-- <button class="work-card" onclick="navigateTo('scientific')">
               <div class="card-header">
                 <h4>Scientific Work</h4>
                 <svg class="arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -85,7 +86,7 @@
               </div>
               <p class="card-description">Discover my research projects and engeineering experience </p>
               <span class="card-cta">View Research Portfolio →</span>
-            </button>
+            </button> -->
           </div>
         </div>
 
@@ -110,14 +111,14 @@
     <div class="content-page">
       <div class="content-container">
         <h2 class="page-title">Portfolio</h2>
-        <p class="page-subtitle">Selected works in my journey as an interdisciplinary artist. </p>
+        <p class="page-subtitle">Selected works in my journey as an interdisciplinary artist-scientist. </p>
 
         <div class="projects-grid">
-          <div class="project-card">
+          <!-- Sample Card <div class="project-card">
             <div class="project-image">
               <small>Project Image</small>
             </div>
-            <h3>tit</h3>
+            <h3>Sample</h3>
             <p>Description</p>
             <a href="#" class="project-link">
               Learn More
@@ -125,14 +126,15 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
               </svg>
             </a>
-          </div>
+          </div> -->
 
+          <!-- doomscrolling -->
           <div class="project-card">
             <div class="project-image">
               <small>Project Image</small>
             </div>
             <h3><i>doomscrolling</i></h3>
-            <p>Description</p>
+            <p>Daya and Bunmi get sucked into Daya’s TikTok Algorithm and must find a way to get home</p>
             <a href="/assets/doomscrolling_sample.pdf" class="project-link">
               Read Sample
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -141,12 +143,13 @@
             </a>
           </div>
 
+          <!-- THGSA -->
           <div class="project-card">
             <div class="project-image">
               <small>Project Image</small>
             </div>
             <h3>THEE Hot Girl Summer Adventures</h3>
-            <p>Description</p>
+            <p>A one-person comedy about a young woman navigating the good, the bad, and the ugly of the dating scene in a new city</p>
             <a href="/assets/THGSA_Sample.pdf" class="project-link">
               Read Sample
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,6 +158,7 @@
             </a>
           </div>
 
+          <!-- MMW  -->
           <div class="project-card">
             <div class="project-image">
               <small>Project Image</small>
@@ -163,6 +167,9 @@
             <p>Description</p>
             <a href="8th.io/da68f" class="project-link">
               WebAR App
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
             </a>
             <a href="#" class="project-link">
               Production Photos
@@ -172,29 +179,82 @@
             </a>
             <a href="/assets/Adejare_TDPS492_Thesis_Essay.pdf" class="project-link">
               Theater Essay
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
             </a>
           </div>
 
+          <!-- Afrobeats Generator -->
+          <div class="project-card">
+            <div class="project-image">
+              <small>Project Image</small>
+            </div>
+            <h3>Afrobeats Generator</h3>
+            <p>A music creation program that allows users to mix and match beats and melodies in the style of popular Afrobeats artists Tiwa Savage, Wizkid, and Arya Starr</p>
+            <a href="https://github.com/AderonkeAdejare/afrobeat-generator" class="project-link">
+              Github
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- OOTI -->
+          <div class="project-card">
+            <div class="project-image">
+              <small>Project Image</small>
+            </div>
+            <h3>Once on This Island</h3>
+            <p>Led the creative direction of the musical about a poor girl falling in love with a rich boy on an island stratified by colorism and class, which had four sold-out performances            </p>
+            <a href="#" class="project-link">
+              Production Photos
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- We Make a Great Team -->
+          <div class="project-card">
+            <div class="project-image">
+              <small>Project Image</small>
+            </div>
+            <h3>"We Make a Great Team!": Adults with Low Prior Domain Knowledge Learn more from a Peer Robot than a Tutor Robot</h3>
+            <p>
+              Co-authored and developed participant engagement classification program for a study exploring how a robot acting like a peer or tutor can affect human learning. 
+              Published in In Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction (HRI '22).
+            </p>
+            <a href="/assets/we_make_a_great_team_HRI2022.pdf" class="project-link">
+              Learn More
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- St. Val's -->
           <div class="project-card">
             <div class="project-image">
               <small>Project Image</small>
             </div>
             <h3> <i> St. Valentine's Home for the Forgetful and Lost </i></h3>
-            <p>Description</p>
+            <p>An unlikely team must find the culprit to a murder and along the way find hidden identities, ghosts, and love in this 1947 farce</p>
             <a href="https://yaledailynews.com/blog/2021/05/06/yale-dramat-presents-st-valentines-home-for-the-forgetful-and-lost-froshowcase-on-zoom/" class="project-link">
-              Learn More
+              Press
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
               </svg>
             </a>
           </div> 
 
+          <!-- Afrofuturism in Africa -->
           <div class="project-card">
             <div class="project-image">
               <!-- <img src="/assets/portfolio/Afrofuturism_in_Africa_ss.png"> -->
             </div>
             <h3>Afrofuturism in Africa</h3>
-            <p>Description</p>
+            <p>Website exploring how Afrofuturism is represented in African media and that generates recommendations on Black speculative fiction works based on user interests and preferred entertainment medium</p>
             <!-- may need to put spans here -->
             <a href="https://youtu.be/kjS6-nnVgeU?si=H5BhF_4OVQr61sLz" class="project-link">
               Demo
@@ -228,7 +288,7 @@
   </div>
 
   <!-- Scientific Work Page -->
-  <div id="scientific" class="page">
+  <!-- <div id="scientific" class="page">
     <div class="content-page">
       <div class="content-container">
         <h2 class="page-title">Scientific Work</h2>
@@ -239,44 +299,15 @@
             <div class="project-image">
               <small>Project Image</small>
             </div>
-            <h3>Research Project 1</h3>
+            <h3>Accessibility Press</h3>
             <p>Description of your scientific research or project. Include key findings and methodologies.</p>
-            <a href="#" class="project-link">
+            <a href="https://yaledailynews.com/blog/2022/11/01/puang-accessibility-is-not-a-privilege/" class="project-link">
               Learn More
               <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
               </svg>
             </a>
           </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <small>Project Image</small>
-            </div>
-            <h3>Research Project 2</h3>
-            <p>Another scientific work showcasing your expertise and contributions to the field.</p>
-            <a href="#" class="project-link">
-              Learn More
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-              </svg>
-            </a>
-          </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <small>Project Image</small>
-            </div>
-            <h3>Publication 1</h3>
-            <p>Details about your published work, conference papers, or academic contributions.</p>
-            <a href="#" class="project-link">
-              Learn More
-              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-              </svg>
-            </a>
-          </div>
-        </div>
 
         <div class="skills-section">
           <h3>Programming Languages</h3>
@@ -293,15 +324,18 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- AOA Digital Storytelling-->
   <div id="aoads" class="page">
     <div class="content-page">
       <div class="content-container">
         <h2 class="page-title">AOA Digital Storytelling</h2>
-        <p class="page-subtitle">AOA Digtial Storytelling is a digital media company focused on bring Black, African, and disabled stories to life. </p>
-        
+        <p class="page-subtitle">
+          AOA Digtial Storytelling is a digital media company focused on showcasing Black, African, and disabled stories. 
+          <br>
+          For inquiries and collaborations, please email <a href="mailto:aderonke@aoadigitalstories.com"> aderonke@aoadigitalstories.com </a>
+        </p>
         <div class="social-grid">
           <div class="social-card">
             <div class="social-header">
@@ -331,7 +365,7 @@
           </div>
         </div>
 
-        <h2> What My Mother Never Told Me</h2>
+        <h2 class="subpage-title"> What My Mother Never Told Me</h2>
         <p class="page-subtitle">
           Our moms tell us a lot of things: wash your face, do your homework, don’t get into trouble.  But what about the things our moms don’t tell us about: dating in the era of swiping, what it’s like to age, how to build a supportive community. Join Kemi and Ronke Adejare, a mother-daughter duo, as they have all the conversations you wish you could have with your mom. 
         </p>
@@ -361,8 +395,8 @@
   <div id="contact" class="page">
     <div class="content-page">
       <div class="contact-content">
-        <h2>Get In Touch</h2>
-        <p class="intro">Let's collaborate and discuss opportunities</p>
+        <h2>Contact Me</h2>
+        <p class="intro"> Let's collaborate and discuss opportunities </p>
         
         <div class="contact-icons">
           <a href="mailto:aderonkeoadejare@gmail.com" class="contact-icon">
