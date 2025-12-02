@@ -22,6 +22,12 @@ body {
     color:  rgba(33,33,33,1);
 }
 
+.hero-body {
+    background-image: url("../images/aderonke_hero_photo.webp");
+    background-size: cover;
+    background-position: top center; 
+}
+
 /* Navigation from Mikhail Abdillah: https://www.macode.web.id/ */
 .sticky {
     top: 0;
@@ -236,4 +242,11 @@ div.contact {
     #portrait {
         max-width: 400px;
     }
+}
+
+.section {
+
+}
+.skills {
+    font-style: italic;
 }
