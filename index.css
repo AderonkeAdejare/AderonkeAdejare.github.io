@@ -256,6 +256,23 @@ nav {
   font-weight: 500;
 }
 
+.info-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem
+}
+
+.info-chip {
+  background-color: #345e7d;
+  color: #f3f7fa;
+  padding: 0.25rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
 /* Explore Work Section */
 .explore-section {
   text-align: center;

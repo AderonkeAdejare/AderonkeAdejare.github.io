@@ -151,18 +151,6 @@ button a:link {
 
 }
 
-div.creative {
-
-}
-
-div.scientist {
-
-}
-
-div.innovator {
-
-}
-
 div.contact {
     position: fixed;
     bottom: 0;
@@ -249,4 +237,8 @@ div.contact {
 }
 .skills {
     font-style: italic;
+}
+
+.pronounciation-link {
+    color: rgba(10,191,255, 0.5); 
 }
