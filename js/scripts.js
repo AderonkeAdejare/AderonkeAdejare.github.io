@@ -63,6 +63,13 @@ document.getElementById('email').href = 'mailto' + ':' + ADDR + '@' + DOMAIN;
     }
   }
 
+  // Set carousel to specific slide
+  function setCarouselSlide(index) {
+    const carousel = document.getElementById('galleryCarousel');
+    const bsCarousel = bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
+    bsCarousel.to(index);
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-links a, .mobile-menu a');
     console.log('Found links:', navLinks.length);
